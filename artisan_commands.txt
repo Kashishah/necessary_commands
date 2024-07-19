@@ -1,0 +1,97 @@
+
+
+---------------------------Application Setup and Configuration Start--------------------------
+
+1)	php artisan key:Generates	: 	Generates a new application key and updates the .env file.
+
+2)	php artisan config:cache	: 	Creates a cache file for faster configuration loading.
+
+3)	php artisan route:cache		: 	Creates a cache file for faster route registration.
+
+4)	php artisan view:clear 		:	Clears all compiled view files.
+
+5)	php artisan cache:clear 	:	Clears the application cache.
+
+6) php artisan optimize			: 	Optimizes the autoloader and compiles the framework
+
+---------------------------Application Setup and Configuration End------------------------------
+
+
+
+---------------------------------------Database Start-------------------------------------------
+
+6)	php artisan migrate			: 	Runs all outstanding migrations.
+
+7)	php artisan migrate:rollback: 	Rolls back the last database migration.
+
+8)	php artisan migrate:status	: 	Shows the status of each migration.
+
+9)	php artisan db:seed         : 	Seeds the database with records.
+
+10)	php artisan migrate:refresh : 	Rolls back all migrations and then re-runs them.
+
+11)	php artisan migrate:refresh	: 	Drops all tables and re-runs all migrations.
+
+12)	php artisan 	
+	make:migration [name] 		: 	Creates a new migration file.
+
+---------------------------------------Database End -------------------------------------------
+
+
+
+--------------------------------------Git commands Start -----------------------------------
+
+1) 	Initialize a new Git repository 			:  	git init 
+
+2)	Clone a repository from a remote source		:	git clone <repository-url>	
+
+3) 	Check status of files						:	git status	
+
+4) 	Add specific files to the staging area		:	git add <file-name>
+
+5)	Add all modified and untracked files 
+	to the staging area 						: 	git add .
+
+6) 	Commiting changes 							:	git commit -m "Commit a message"	
+
+7)	Create a new branch							:	git branch <branch-name>
+
+8)	Switch to a different branch 				:	git checkout <branch-name>
+
+9)	Push changes to a remote repository 		:	git push origin <branch-name>
+
+10)	Pull changes from a remote repository 		:	git pull origin <branch-name>
+
+11) Merge changes from another branch 
+	into the current branch-name				:	git merge <branch-name>
+
+12)	View commit history							:	git log
+
+13) Discard changes in a specific file
+	and revert to last committed version		: 	git checkout -- <file-name>
+
+14)	Set your Git username globally				:	git config --global user.name "Your Name"
+
+15)	Set your Git email globally					:	git config --global user.email 																	"your.email@example.com"
+
+16) Check Git configurations					:	git config --list
+
+17)	check your current Git username and email	:	git config user.name
+													git config user.email
+
+18)	Change or delete your current configuration :	git config --unset user.name
+													git config --unset user.email
+
+--------------------------------------Git commands End--------------------------------------
+
+
+
+-------------------------------Composer commands Start----------------------------------------
+
+1) 	Installing Dependencies:					:  	composer install 
+
+2)	Updating Dependencies						:	composer update	
+
+3) 	Autoloading Classes							:	composer dump-autoload
+
+-------------------------------Composer commands End------------------------------------------
